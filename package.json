@@ -1,0 +1,30 @@
+{
+  "name": "tero-koivisto-cv",
+  "version": "1.0.0",
+  "description": "CV by Tero Koivisto",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@tsconfig/svelte": "^5.0.2",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-svelte": "^2.35.1",
+    "prettier": "^3.2.5",
+    "sass": "^1.71.0",
+    "svelte": "^4.2.11",
+    "svelte-check": "^3.6.4",
+    "svelte-preprocess": "^5.1.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.3"
+  },
+  "dependencies": {
+    "the-new-css-reset": "^1.11.2"
+  }
+}
