@@ -11,3 +11,13 @@ export interface Experience {
     to: string;
     summary: string;
 }
+
+export interface CVData {
+    name: string;
+    title: string;
+    aboutMe: string;
+    personalMe: string;
+    location: string;
+    skills: Skill[];
+    experience: Experience[];
+}
