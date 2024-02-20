@@ -31,7 +31,6 @@ e.g. Boto3.
 - Docker
 - Node
 - pnpm
-- Go
 
 You can run the backend and DynamoDB in Docker with 
 ```bash
