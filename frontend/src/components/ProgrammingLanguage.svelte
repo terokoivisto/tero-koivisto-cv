@@ -4,12 +4,12 @@
     export let skill: Skill;
 </script>
 
-<div>
+<div class="language">
     <div class="heading">
         <iconify-icon icon={skill.icon} width="1.5rem"/>
         <h5>{skill.name}</h5>
     </div>
-    <ul>
+    <ul style="max-width: 250px;">
         {#each skill.usages as use}
             <li>{use}</li>
         {/each}

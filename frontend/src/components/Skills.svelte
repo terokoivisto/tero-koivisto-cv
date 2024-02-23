@@ -6,14 +6,20 @@
 
 <div>
     <h4>Skills</h4>
-    <div class="language-list">
+    <div class="skill-list">
         {#each skills as skill}
-            <div class="col-4 col-sm-6">
-                <ProgrammingLanguage skill={skill} />
-            </div>
+            <ProgrammingLanguage skill={skill} />
         {/each}
     </div>
 </div>
 
 <style lang="scss">
+    .skill-list {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+    }
 </style>

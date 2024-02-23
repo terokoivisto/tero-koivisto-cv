@@ -165,21 +165,21 @@ func (tc TableConfig) populateDB() error {
 			Title:   "Senior Fullstack Developer",
 			From:    "October 2020",
 			To:      "Present",
-			Summary: "Fullstack development (React + Django + PostgreSQL + lots of AWS microservices), DevOps, and a lot more",
+			Summary: "Fullstack development, DevOps, Architecture, Database modeling, etc. Turning ideas into concrete deployed features. Migrating monolith stack (React, Django, Celery, PostgreSQL) from Heroku to a scalable solution on AWS with Fargate, CloudFront, Step Functions, Lambdas, Aurora Serverless RDS, DynamoDB, etc. Solved scaling issues of several different data processing flows using the power of distributed parallel processing with Step Functions. Built streamlined backend support for building update packages and sending them over the internet to Acoustic Cameras.",
 		},
 		{
 			Company: "Analyse2",
 			Title:   "Fullstack Developer",
 			From:    "October 2018",
 			To:      "October 2020",
-			Summary: "Fullstack development (Angular + asp.NET Core + MS SQL Server), architecture, database design, multiple external projects, DevOps, data analytics",
+			Summary: "Fullstack development, DevOps, database design, architecture, working with multiple backend (modern and legacy) frameworks across different projects (C#, Java, Python, etc.), improving our internal processes and tools, data processing within and between different MS SQL Server databases. Designed and implemented indoor position data analysis tool with dataset of hundreds of millions of data points for identify movement patterns. Consultation for clients on external projects.",
 		},
 		{
 			Company: "QuattroFolia",
 			Title:   "Junior Software Developer",
 			From:    "March 2017",
 			To:      "October 2018",
-			Summary: "Test engineering for Web and Android, Frontend development with AngularJS",
+			Summary: "Test engineering for Web and Android, Frontend development with AngularJS. Helped diabetes doctors and nurses manage and analyze their patients, identifying the ones that need attention. Adhered to strict policies and rules related to development, as the product was a Medical Device.",
 		},
 		{
 			Company: "Suomen Merivoimat",
@@ -199,8 +199,8 @@ func (tc TableConfig) populateDB() error {
 
 	cv := models.CV{
 		Name:       "Tero Koivisto",
-		AboutMe:    "I'm a 28-year-old Senior Fullstack Developer who excels at adapting to challenges of all sorts and scales by breaking down larger problems into smaller easily comprehensible sub-problems, to deliver the solution that satisfies the requirements. I'm a quick learner and I'm always ready to expand beyond my current knowledge and skillset, if need be. Beyond writing code I always try to understand the underlying reason why we want to do something, and combine the business requirements to the current technical solution in a robust manner. I'm very used to speaking English with colleagues.",
-		PersonalMe: "Outside my worklife, I spend time listening to music, playing various games (FPS and survival are my favorites), writing code for GTA V roleplaying server and during the summer I try my best to play some golf. I'm also a car enthusiast (yes, the ones using ancient technology that go brrrr), a semi-hardcore coffee lover and I like cooking all kinds of foods.",
+		AboutMe:    "Experienced Senior Fullstack Developer adept at crafting intricate solutions from conceptualization to implementation. Proficient in selecting the optimal tech stack for diverse projects and executing comprehensive tasks to transform visions into robust, production-ready solutions. My expertise extends to mentoring and guiding Junior Developers, streamlining internal processes, and developing scalable solutions that address immediate challenges and anticipate future needs.\n\nI possess a proven track record in customer-facing roles, actively engaging with clients to comprehend their requirements and use cases. Beyond technical prowess, my ability to navigate uncharted territories showcases a relentless commitment to finding optimal solutions for any challenge. My well-rounded skill set encompasses a deep understanding of both the technical and business aspects, enabling me to contribute effectively to feature design and align projects with overarching business goals. I am dedicated to maintaining operational excellence, ensuring the ongoing success of the solutions I deliver.",
+		PersonalMe: "Outside of work, I spend time listening to music, playing various games (FPS and survival are my favorites), writing code for GTA V roleplaying server (with very demanding and critical audience) and during the summer I try my best to play some golf. I'm also a car enthusiast (yes, the ones using ancient technology that go brrrr), a semi-hardcore coffee lover and I like cooking all kinds of foods.",
 		Title:      "Senior Fullstack Developer",
 		Location:   "Espoo, Finland",
 		Skills:     skills,

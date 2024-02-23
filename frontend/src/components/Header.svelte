@@ -11,9 +11,9 @@
     export let location: string;
 </script>
 
-<div>
-    <div class="col-4">
-        <img src={portrait} alt="me" />
+<div class="header">
+    <div class="left-side">
+        <img class="picture" src={portrait} alt="me" />
         <div class="contacts">
             <div class="contact">
                 <iconify-icon icon="ic:baseline-email" />
@@ -29,7 +29,7 @@
             </div>
         </div>
     </div>
-    <div class="col-8">
+    <div class="right-side">
         <AboutMe
             name={name}
             title={title}
@@ -40,6 +40,11 @@
 </div>
 
 <style lang="scss">
+  .header {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
   .contacts {
     display: flex;
     flex-direction: column;
@@ -50,6 +55,12 @@
       flex-direction: row;
       gap: 0.5rem;
       align-items: center;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
     }
   }
 </style>
